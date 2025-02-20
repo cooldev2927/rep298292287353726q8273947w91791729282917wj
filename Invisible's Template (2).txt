@@ -13,7 +13,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Move 1"
+ToolName.Text = "Gaster Blaster"
 
 
 
@@ -32,7 +32,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Move 2"
+ToolName.Text = "Consecutive punches"
 
 
 
@@ -51,7 +51,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Move 3"
+ToolName.Text = "Blast Away"
 
 
 
@@ -71,7 +71,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Move 4"
+ToolName.Text = "Upper Beam"
 
 
 local Players = game:GetService("Players")
@@ -96,7 +96,7 @@ local function findGuiAndSetText()
 
             if textLabel then
 
-                textLabel.Text = "ULT name"
+                textLabel.Text = "The time had torn apart..."
 
             end
 
