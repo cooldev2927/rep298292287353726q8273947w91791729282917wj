@@ -22,25 +22,25 @@
 -- // Moves&ultimate
 
     -- // Ultimate name
-    character:SetAttribute("UltimateName", "Ultimate Name")
+    character:SetAttribute("Domain expansion", "Domain expansion")
 
         -- // Ultimate color
         screenGui.MagicHealth.Health.Bar.Bar.ImageColor3 = Color3.fromRGB(66, 9, 9)
 
     -- // Move names
     local moves = {
-        ["Move Name 1"] = {slot = 1, text = "A lil text"}, -- "text" is the text that's under the move name, e.g. "USE TWICE"
-        ["Move Name 2"] = {slot = 2, text = "Some text"},
-        ["Move Name 3"] = {slot = 3, text = ""}, -- Leave it empty if you don't want any text
-        ["Move Name 4"] = {slot = 4, text = ""},
+        ["Slash barrage"] = {slot = 1, text = ""}, -- "text" is the text that's under the move name, e.g. "USE TWICE"
+        ["Out of my way!"] = {slot = 2, text = ""},
+        ["Curse's grasp"] = {slot = 3, text = ""}, -- Leave it empty if you don't want any text
+        ["Direct slashes"] = {slot = 4, text = "cool counter"},
     }
 
         -- // Ultimate move names
         local ultNames = {
-            ["Ult Move Name 1"] = {slot = 1, text = "Some text"},
-            ["Move Name 2"] = {slot = 2, text = "Another text"},
-            ["Move Name 3"] = {slot = 3, text = ""},
-            ["Move Name 4"] = {slot = 4, text = ""},
+            ["Dominant barrage"] = {slot = 1, text = ""},
+            ["Rush"] = {slot = 2, text = ""},
+            ["Slash blast"] = {slot = 3, text = ""},
+            ["Direct rush"] = {slot = 4, text = ""},
         }
 
 -- // The functionality
